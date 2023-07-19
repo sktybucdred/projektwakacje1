@@ -14,6 +14,9 @@ import java.io.IOException;
 
 public class adminLoginMenu extends LoginMenu {
     @FXML
+    private Button adminRegisterButton;
+    private RegisterButtonHandler registerButtonHandler;
+    @FXML
     private TextField usernameField;
 
     @FXML

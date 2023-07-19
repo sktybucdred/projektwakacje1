@@ -75,7 +75,7 @@
             </Label>
             <Button layoutX="295.0" layoutY="188.0" mnemonicParsing="false" text="Zaloguj" />
             <Button fx:id="backButton" layoutX="295.0" layoutY="232.0" mnemonicParsing="false" onAction="#initialize" prefHeight="25.0" prefWidth="56.0" text="Cofnij" />
-            <Button fx:id="adminRegisterButton" layoutX="270.0" layoutY="317.0" mnemonicParsing="false" onAction="#handleAdminRegisterButton" prefHeight="26.0" prefWidth="111.0" text="Utwórz konto" />
+            <Button fx:id="adminRegisterButton" layoutX="270.0" layoutY="317.0" mnemonicParsing="false" onAction="#initialize" prefHeight="26.0" prefWidth="111.0" text="Utwórz konto" />
             <Label alignment="CENTER" layoutX="242.0" layoutY="277.0" style="&#10;" text="Nie posiadasz konta?" textAlignment="CENTER" textFill="#9f9f9f" wrapText="false">
                <font>
                   <Font size="18.0" />

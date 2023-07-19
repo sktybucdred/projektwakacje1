@@ -75,13 +75,13 @@
             </Label>
             <Button layoutX="295.0" layoutY="188.0" mnemonicParsing="false" text="Zaloguj" />
             <Button fx:id="backButton" layoutX="294.0" layoutY="226.0" mnemonicParsing="false" onAction="#initialize" prefHeight="25.0" prefWidth="56.0" text="Cofnij" />
-            <Button fx:id="userRegisterButton" layoutX="265.0" layoutY="287.0" mnemonicParsing="false" onAction="#handleUserRegisterButton" prefHeight="26.0" prefWidth="111.0" text="Utwórz konto" />
+            <Button fx:id="userRegisterButton" layoutX="265.0" layoutY="287.0" mnemonicParsing="false" onAction="#initialize" prefHeight="26.0" prefWidth="111.0" text="Utwórz konto" />
             <Label alignment="CENTER" layoutX="239.0" layoutY="260.0" style="&#10;" text="Nie posiadasz konta?" textAlignment="CENTER" textFill="#9f9f9f" wrapText="false">
                <font>
                   <Font size="18.0" />
                </font>
             </Label>
-            <Button fx:id="userLoginAsGuest" layoutX="265.0" layoutY="325.0" mnemonicParsing="false" onAction="#handleUserRegisterButton" prefHeight="26.0" prefWidth="111.0" text="Wejdź jako gość" />
+            <Button fx:id="userLoginAsGuest" layoutX="265.0" layoutY="325.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="111.0" text="Wejdź jako gość" />
       </children>
     </AnchorPane>
   </children>

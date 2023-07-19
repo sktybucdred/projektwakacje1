@@ -9,9 +9,7 @@ abstract public class LoginMenu {
 
     protected BackButtonHandler backButtonController;
     protected String previousScene = "/primaryStage.fxml";
-    @FXML
-    protected Button adminRegisterButton;
-    protected RegisterButtonHandler registerButtonHandler;
+
 
     @FXML
     public void initialize(){

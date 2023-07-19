@@ -10,6 +10,8 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 public class userLoginMenu extends LoginMenu {
+
+    private RegisterButtonHandler registerButtonHandler;
     @FXML
     private Button userRegisterButton;
     @FXML
@@ -18,16 +20,7 @@ public class userLoginMenu extends LoginMenu {
     @Override
     public void initialize(){
         super.initialize();
-        userRegisterButton.setOnAction(event -> handleUserRegisterButton());
+        registerButtonHandler = new RegisterButtonHandler(userRegisterButton, "/userRegister.fxml");
     }
-    public void handleUserRegisterButton() {
-        try {
-            Stage stage = (Stage) userRegisterButton.getScene().getWindow();
-            Pane pane = FXMLLoader.load(getClass().getResource("/userRegister.fxml"));
-            Scene scene = new Scene(pane);
-            stage.setScene(scene);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
+
 }

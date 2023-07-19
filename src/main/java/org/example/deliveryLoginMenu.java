@@ -10,23 +10,13 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 public class deliveryLoginMenu extends LoginMenu {
+    private RegisterButtonHandler registerButtonHandler;
     @FXML
     private Button deliveryRegisterButton;
     @FXML
     @Override
     public void initialize(){
         super.initialize();
-        deliveryRegisterButton.setOnAction(event -> handleDeliveryRegisterButton());
-    }
-    public void handleDeliveryRegisterButton() {
-        try {
-            Stage stage = (Stage) deliveryRegisterButton.getScene().getWindow();
-            Pane pane = FXMLLoader.load(getClass().getResource("/deliveryRegister.fxml"));
-            Scene scene = new Scene(pane);
-            stage.setScene(scene);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
+        registerButtonHandler = new RegisterButtonHandler(deliveryRegisterButton, "/deliveryRegister.fxml");
     }
 }

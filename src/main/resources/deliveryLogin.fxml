@@ -80,7 +80,7 @@
                   <Font size="18.0" />
                </font>
             </Label>
-            <Button fx:id="deliveryRegisterButton" layoutX="267.0" layoutY="297.0" mnemonicParsing="false" onAction="#handleDeliveryRegisterButton" prefHeight="26.0" prefWidth="111.0" text="Utwórz konto" />
+            <Button fx:id="deliveryRegisterButton" layoutX="267.0" layoutY="297.0" mnemonicParsing="false" onAction="#initialize" prefHeight="26.0" prefWidth="111.0" text="Utwórz konto" />
       </children>
     </AnchorPane>
   </children>
