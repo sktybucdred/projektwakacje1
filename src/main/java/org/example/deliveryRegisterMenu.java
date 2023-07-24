@@ -13,5 +13,19 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 public class deliveryRegisterMenu extends LoginMenu {
+    @FXML
+    private TextField name;
+    @FXML
+    private TextField surname;
+    @FXML
+    private TextField usernameField;
 
+    @FXML
+    private PasswordField passwordField;
+    @Override
+    @FXML
+    public void initialize()
+    {
+        super.initialize();
+    }
     }

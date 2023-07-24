@@ -10,6 +10,7 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 public class userLoginMenu extends LoginMenu {
+    private LoginAsGuestButtonHandler loginAsGuestButtonHandler;
 
     private RegisterButtonHandler registerButtonHandler;
     @FXML
@@ -21,6 +22,7 @@ public class userLoginMenu extends LoginMenu {
     public void initialize(){
         super.initialize();
         registerButtonHandler = new RegisterButtonHandler(userRegisterButton, "/userRegister.fxml");
+        loginAsGuestButtonHandler = new LoginAsGuestButtonHandler(userLoginAsGuest);
     }
-
 }
+

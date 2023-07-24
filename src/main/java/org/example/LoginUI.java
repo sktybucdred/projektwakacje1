@@ -15,6 +15,8 @@ import java.io.IOException;
 public class LoginUI extends Application {
     @Override
     public void start(Stage primaryStage) throws IOException {
+        dataBaseHandler dbHandler = new dataBaseHandler();
+        dbHandler.createTables();
         Parent root = FXMLLoader.load(getClass().getResource("/primaryStage.fxml"));
         Scene scene = new Scene(root);
         primaryStage.setScene(scene);

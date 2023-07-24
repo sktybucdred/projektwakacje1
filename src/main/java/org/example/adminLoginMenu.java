@@ -38,14 +38,3 @@ public class adminLoginMenu extends LoginMenu {
         registerButtonHandler = new RegisterButtonHandler(adminRegisterButton, "/ADMINregister.fxml");
     }
 }
-//    public void handleAdminRegisterButton() {
-//        try {
-//            Stage stage = (Stage) adminRegisterButton.getScene().getWindow();
-//            Pane pane = FXMLLoader.load(getClass().getResource("/ADMINregister.fxml"));
-//            Scene scene = new Scene(pane);
-//            stage.setScene(scene);
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
-//
-//    }
