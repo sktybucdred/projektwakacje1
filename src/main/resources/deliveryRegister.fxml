@@ -63,8 +63,8 @@
                   <Font size="18.0" />
                 </font>
               </Label>
-                  <TextField layoutX="245.0" layoutY="175.0" />
-                  <PasswordField layoutX="245.0" layoutY="227.0" />
+                  <TextField fx:id="usernameField" layoutX="245.0" layoutY="175.0" />
+                  <PasswordField fx:id="passwordField" layoutX="245.0" layoutY="227.0" />
                   <Label alignment="CENTER" layoutX="297.0" layoutY="148.0" style="&#10;" text="Login" textAlignment="CENTER" textFill="#9f9f9f" wrapText="false">
                      <font>
                         <Font size="18.0" />
@@ -75,10 +75,10 @@
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <Button layoutX="277.0" layoutY="263.0" mnemonicParsing="false" text="Utwórz konto" />
+                  <Button fx:id="registerButton" layoutX="277.0" layoutY="263.0" mnemonicParsing="false" onAction="#initialize" text="Utwórz konto" />
                   <Button fx:id="backButton" layoutX="292.0" layoutY="298.0" mnemonicParsing="false" onAction="#initialize" prefHeight="25.0" prefWidth="56.0" text="Cofnij" />
-                  <TextField layoutX="245.0" layoutY="123.0" />
-                  <TextField layoutX="247.0" layoutY="71.0" />
+                  <TextField fx:id="surnameField" layoutX="245.0" layoutY="123.0" />
+                  <TextField fx:id="nameField" layoutX="247.0" layoutY="71.0" />
                   <Label alignment="CENTER" layoutX="292.0" layoutY="44.0" prefHeight="27.0" prefWidth="56.0" style="&#10;" text="Imie" textAlignment="CENTER" textFill="#9f9f9f" wrapText="false">
                      <font>
                         <Font size="18.0" />

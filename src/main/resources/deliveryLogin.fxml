@@ -61,8 +61,8 @@
             <Font size="18.0" />
           </font>
         </Label>
-            <TextField layoutX="246.0" layoutY="73.0" />
-            <PasswordField layoutX="246.0" layoutY="127.0" />
+            <TextField fx:id="usernameField" layoutX="246.0" layoutY="73.0" />
+            <PasswordField fx:id="passwordField" layoutX="246.0" layoutY="127.0" />
             <Label alignment="CENTER" layoutX="298.0" layoutY="41.0" style="&#10;" text="Login" textAlignment="CENTER" textFill="#9f9f9f" wrapText="false">
                <font>
                   <Font size="18.0" />
@@ -73,14 +73,14 @@
                   <Font size="18.0" />
                </font>
             </Label>
-            <Button layoutX="295.0" layoutY="188.0" mnemonicParsing="false" text="Zaloguj" />
+            <Button fx:id="loginButton" layoutX="295.0" layoutY="188.0" mnemonicParsing="false" onAction="#initialize" text="Zaloguj" />
             <Button fx:id="backButton" layoutX="294.0" layoutY="226.0" mnemonicParsing="false" onAction="#initialize" prefHeight="25.0" prefWidth="56.0" text="Cofnij" />
             <Label alignment="CENTER" layoutX="239.0" layoutY="270.0" style="&#10;" text="Nie posiadasz konta?" textAlignment="CENTER" textFill="#9f9f9f" wrapText="false">
                <font>
                   <Font size="18.0" />
                </font>
             </Label>
-            <Button fx:id="deliveryRegisterButton" layoutX="267.0" layoutY="297.0" mnemonicParsing="false" onAction="#initialize" prefHeight="26.0" prefWidth="111.0" text="Utwórz konto" />
+            <Button fx:id="registerButton" layoutX="267.0" layoutY="297.0" mnemonicParsing="false" onAction="#initialize" prefHeight="26.0" prefWidth="111.0" text="Utwórz konto" />
       </children>
     </AnchorPane>
   </children>

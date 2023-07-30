@@ -16,9 +16,9 @@ private Button registerButton;
     public RegisterButtonHandler(Button registerButton, String targetFXML) {
         this.registerButton = registerButton;
         this.targetFXML = targetFXML;
-        setBackButtonAction();
+        setRegisterButtonAction();
     }
-    public void setBackButtonAction() {
+    public void setRegisterButtonAction() {
         registerButton.setOnAction(event -> {
             try {
                 Stage stage = (Stage) registerButton.getScene().getWindow();

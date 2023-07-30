@@ -2,12 +2,11 @@ package org.example;
 
 import javafx.fxml.FXML;
 
-public class dataBaseLoginMenu extends Menu {
+public class LoginError extends Menu {
     @FXML
     @Override
-    public void initialize() {
+    public void initialize()
+    {
         super.initialize();
     }
 }
-
-

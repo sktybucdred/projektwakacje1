@@ -41,7 +41,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.userPrimaryStage">
   <children>
     <MenuBar VBox.vgrow="NEVER">
       <menus>
@@ -59,11 +59,13 @@
             <Font size="18.0" />
           </font>
         </Label>
-            <Button layoutX="294.0" layoutY="74.0" mnemonicParsing="false" text="Zakup" />
-            <Button layoutX="255.0" layoutY="106.0" mnemonicParsing="false" text="Wystaw na sprzedaż" />
-            <Button layoutX="266.0" layoutY="137.0" mnemonicParsing="false" text="Historia zakupów" />
-            <Button layoutX="274.0" layoutY="169.0" mnemonicParsing="false" text="Doładuj saldo" />
-            <Button layoutX="280.0" layoutY="201.0" mnemonicParsing="false" text="Wyloguj się" />
+            <Button layoutX="293.0" layoutY="67.0" mnemonicParsing="false" text="Zakup" />
+            <Button layoutX="255.0" layoutY="99.0" mnemonicParsing="false" text="Wystaw na sprzedaż" />
+            <Button layoutX="266.0" layoutY="195.0" mnemonicParsing="false" text="Historia zakupów" />
+            <Button layoutX="272.0" layoutY="226.0" mnemonicParsing="false" text="Doładuj saldo" />
+            <Button layoutX="278.0" layoutY="259.0" mnemonicParsing="false" text="Wyloguj się" />
+            <Button layoutX="247.0" layoutY="131.0" mnemonicParsing="false" text="Wystawione przedmioty" />
+            <Button layoutX="271.0" layoutY="164.0" mnemonicParsing="false" text="Obserwowane" />
       </children>
     </AnchorPane>
   </children>

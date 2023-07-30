@@ -3,7 +3,7 @@ package org.example;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 
-abstract public class LoginMenu {
+abstract public class Menu {
     @FXML
     protected Button backButton;
 
